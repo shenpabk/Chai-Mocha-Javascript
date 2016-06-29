@@ -1,0 +1,29 @@
+{
+  "name": "chai-mocha-javascript",
+  "version": "1.0.0",
+  "description": "A project about chai/mocha and javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shenpabk/Chai-Mocha-Javascript.git"
+  },
+  "keywords": [
+    "mocha",
+    "chai",
+    "javascript"
+  ],
+  "author": "shenpabk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shenpabk/Chai-Mocha-Javascript/issues"
+  },
+  "homepage": "https://github.com/shenpabk/Chai-Mocha-Javascript",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "chai-as-promised": "^5.3.0",
+    "mocha": "^2.5.3"
+  }
+}
