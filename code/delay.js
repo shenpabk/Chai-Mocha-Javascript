@@ -6,8 +6,7 @@ function delay (time, obj, action, params) {
         if(typeof obj[action] === 'function'){
             setTimeout(function(){
                 resolve(obj[action].apply(null,params));
-            },time);
-            
+            },time);  
         } else {
             reject("no method find");
         }
